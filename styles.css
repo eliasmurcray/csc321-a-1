@@ -1,0 +1,43 @@
+body {
+	background: #2f2;
+	font-family: comic sans ms;
+}
+
+img {
+	transform: rotate(0deg);
+	transition: transform 3s ease-in-out;
+}
+
+img:hover {
+	transform: rotate(720deg);
+}
+table {
+	border-collapse: collapse;
+	width: 100%;
+	margin-top: 20px;
+	max-width: 900px;
+}
+
+th,
+td {
+	border: 1px solid #ddd;
+	padding: 12px;
+	text-align: left;
+}
+
+tr {
+	transition: background-color 0.3s ease-in-out;
+}
+
+th {
+	background-color: #4caf50;
+	color: white;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+tr:hover {
+	background-color: #ddd;
+}
